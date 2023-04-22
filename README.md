@@ -65,7 +65,7 @@ $ pip3 install -r requirements.txt
 > Start the app
 
 ```bash
-$ flask server
+$ flask app
 ```
 
 At this point, the app runs at `http://127.0.0.1:5000/`. 
@@ -91,13 +91,16 @@ The project is code stracture ad following.
 < PROJECT ROOT >
    |    
    |-- static/
-   |     |-- <css, JS, images>          # All Static files
+   |     |-- css                # css file
+   |     |-- images             #Save all image 
    |
    |-- templates/                 # Templates used to render pages
-   |     |-- navigation.html       # Top menu 
-   |     |-- index.html            # Index page
+   |     |-- base.html            # Base html
+   |     |-- index.html            # First page
    |     |-- 404-page.html         # 404 page
    |     |-- *.html                # All other pages in futurte
+   |
+   |-- app.py  #Main application
    |        
    |-- config.json                # config conncection data  your setting data 
    |
