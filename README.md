@@ -8,7 +8,7 @@ This project is senior project of  **Walailak University** create by student of 
 
 <br />
 
-> 🚀 Built with Flask [Link ](https://flask.palletsprojects.com/en/2.2.x/)`
+> 🚀 Built with Flask [Link ](https://flask.palletsprojects.com/en/2.2.x/)
 
 <br />
 
