@@ -10,11 +10,12 @@ from linebot.models import (MessageEvent,
 import json
 from datetime import datetime , timedelta
 from model import asking_people
+import os
 
 
 ##Reading Config File####
-
-with open("config.json") as file:
+cfg_path = os.path.join(os.path.dirname(__file__), 'config.json')
+with open(cfg_path) as file:
    config_data = json.load(file)
 
 ##Setting config value 
