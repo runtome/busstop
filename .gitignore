@@ -5,6 +5,7 @@ __pycache__/
 
 # Config file 
 config.json
+*.json
 
 # Model weight 
 *.pt
